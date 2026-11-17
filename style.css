@@ -50,3 +50,4 @@ form button { align-self: flex-start; margin-top: 8px; }
   .results { flex-basis: auto; max-height: none; }
   .search-container input { width: 100%; }
 }
+.results > * { flex-shrink: 0; }
