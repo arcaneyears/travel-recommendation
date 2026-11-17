@@ -6,7 +6,7 @@ const resultsDiv = document.getElementById('results');
 let travelData = null;
 
 // Fetch data from the JSON "API"
-fetch('travel_recommendation_api.json')
+fetch('travel_recommendation_api.json', { cache: 'no-store' })
   .then(response => response.json())
   .then(data => {
     travelData = data;
