@@ -2,7 +2,7 @@
 body { font-family: Arial, Helvetica, sans-serif; color: #fff; min-height: 100vh; }
 body.home, body.page {
   background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url("https://loremflickr.com/1600/900/tropical,beach") center/cover fixed;
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/Anse_Source_d%27Argent_2-La_Digue.jpg?width=1600") center/cover fixed;
 }
 .navbar {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
